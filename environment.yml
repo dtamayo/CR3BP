@@ -1,0 +1,11 @@
+name: cr3bp
+channels:
+  - conda-forge
+dependencies:
+  - python==3.7.10
+  - numpy
+  - pip
+  - jupyter
+  - matplotlib=3.1.1
+  - pip:
+      - rebound
